@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="856018de3dc046cc9875017b6f993391" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.categoria" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.cliente" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.departamento" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.marca" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.medida" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.municipio" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.producto" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.reporte" Width="1.5" PointX="7.5" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sondeo" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.usuario" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="Model.fk_producto_se_clasif_categori" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.fk_usuario_es_cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.fk_municipi_pertenece_departam" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.fk_producto_tiene_marca" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.fk_producto_mide_medida" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.fk_sondeo_se_realiz_municipi" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.fk_sondeo_se_compon_producto" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.fk_reporte_genera_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.fk_reporte_genera2_sondeo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
